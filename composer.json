@@ -50,7 +50,8 @@
     },
     "require-dev": {
         "phing/phing": "2.7.*",
-        "phpunit/phpunit": "4.0.*",
+        "phpunit/phpunit": "4.3.*",
+        "sami/sami": "2.*",
         "squizlabs/php_codesniffer": "1.*"
     },
     "suggest": {
@@ -68,14 +69,11 @@
         },
         "psr-4": {
             "phpseclib\\": "phpseclib/"
-        },
-        "files": [
-            "phpseclib/Crypt/Random.php"
-        ]
+        }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.3-dev"
+            "dev-php5": "2.0-dev"
         }
     }
 }
